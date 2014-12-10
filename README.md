@@ -11,6 +11,7 @@ $ mongod --dbpath ./data
 ### View db entries with mongo console
 ```
 $ mongo
+$ use nodetest1
 $ db.usercollection.find().pretty()
 ```
 
